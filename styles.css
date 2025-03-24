@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Oswald&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&family=Spline+Sans:wght@300..700&family=Viga&display=swap');
+
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background-color:azure;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header {
+    font-family: oswald, sans-serif;
+    padding: 10px 0;
+    text-align: center;
+    background-color:cornflowerblue;
+}
+.receita {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.receita:hover {
+    transform: translateY(-10px);
+}
+.rec-imagem {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens se quebrem para a próxima linha */
+    gap: 20px; /*adiciona o espaçamento de 20px entre os elementos filhos do container*/
+    justify-content: center;
+    padding: 70px;
+}
+.container a {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+ }
+ /*Estilização do titulo*/
+.rec-title {
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #444;
+    text-align: center;
+}
+#chocolate {
+    font-family: roboto, sans-serif;
+    text-align:left;
+    font-size: 15px;
+    display:flexbox;
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#cenoura {
+    font-family: roboto, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    display:flexbox;
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#molhoPenne {
+    font-family: roboto, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    display:flexbox;
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#eCarbonara {
+    font-family: roboto, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    display:flexbox;
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+section h2 {
+    font-family: oswald, sans-serif;
+    padding: 5px;
+    list-style: none;
+}
+section p {
+    font-family: spline, sans-serif;
+    padding: 5px;
+    list-style: none;
+}
+/* nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+nav h2 {
+    font-family: oswald, sans-serif;
+    padding: 0px;
+    list-style: none;
+}
+nav h3 {
+    font-family: oswald, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    list-style: none;
+}
+nav ul {
+    font-family: spline, sans-serif;
+    padding: 15px;
+    list-style:disc;
+}
+nav ul li {
+    margin: 10px 15px;
+}
+.voltar {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+nav ol {
+    font-family: spline, sans-serif;
+    padding: 15px;
+    list-style:decimal;
+}
+nav ol li {
+    margin: 10px 15px;
+}
+h4 {
+    font-family: vigia, sans-serif;
+    color:blue;
+    font-size: 10px;
+    text-align: right;
+    margin-left: 200px;
+    margin-right: 350px;
+}
+/* @media query padrão para dispositivos com largura máxima de 768px
+@media only screen and (max-width: 768px) {
+    body {
+      max-width: 500px;   /* Define uma largura máxima para o conteúdo */
+      /* margin: 0 auto;     /* Centraliza horizontalmente o conteúdo */
+      /* text-align: center; /* Opcional: centraliza o texto dentro do body */
+    /* } */ 
+  /* } */ 
+  
+  #icon {
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #icon:hover {
+    height: 10px;
+    transform:scale(1.2);
+   
+  }
