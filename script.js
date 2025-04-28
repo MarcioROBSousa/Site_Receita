@@ -3,10 +3,10 @@ var userName = prompt("Qual é o seu nome?");
 
 // Se o usuário fornecer um nome, exibe uma mensagem de boas-vindas com alert
 if (userName) {
-    alert("Olá " + userName + ", seja bem-vindo ao meu site!");
+    alert("Olá " + userName + ", seja bem-vindo ao site!");
 } else {
     // Caso o usuário não digite nada ou cancele, exibe uma mensagem padrão
-    alert("Olá visitante, seja bem-vindo ao meu site!");
+    alert("Olá visitante, seja bem-vindo ao site!");
 }
 
 // Solicita ao usuário que escolha o tema: "dia" para fundo amarelo e ícone ☀ ou "noite" para fundo preto e ícone 🌙

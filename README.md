@@ -5,12 +5,9 @@ Este projeto foi desenvolvido utilizando HTML, CSS e JavaScript.
 Ele permite a interação do usuário escolhendo temas (Dia 🌞 ou Noite 🌙) e exibindo receitas de forma responsiva e animada.
 
 <p align="center">
-  <img src="img/boloAnimado.gif" alt="Game" width="500"/>
+  <img src="img/Animacao.gif" alt="Game" width="500"/>
 </p>
 
-Exemplo:
-
-Dica: Você pode gravar um pequeno vídeo do site com a extensão Screenity, transformar em GIF com o ezgif.com e colocar aqui.
 
 🛠️ Tecnologias Utilizadas
 HTML5
