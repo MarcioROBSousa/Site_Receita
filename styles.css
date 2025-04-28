@@ -57,7 +57,7 @@ header {
     font-family: roboto, sans-serif;
     text-align:left;
     font-size: 15px;
-    display:flexbox;
+    display: block;
     padding: 100px;
     margin-left: 200px;
     margin-right: 200px;
@@ -66,7 +66,7 @@ header {
     font-family: roboto, sans-serif;
     text-align: left;
     font-size: 15px;
-    display:flexbox;
+    display: block;
     padding: 100px;
     margin-left: 200px;
     margin-right: 200px;
@@ -75,7 +75,7 @@ header {
     font-family: roboto, sans-serif;
     text-align: left;
     font-size: 15px;
-    display:flexbox;
+    display: block;
     padding: 100px;
     margin-left: 200px;
     margin-right: 200px;
@@ -84,7 +84,7 @@ header {
     font-family: roboto, sans-serif;
     text-align: left;
     font-size: 15px;
-    display:flexbox;
+    display: block;
     padding: 100px;
     margin-left: 200px;
     margin-right: 200px;
@@ -139,21 +139,14 @@ nav ol li {
     margin: 10px 15px;
 }
 h4 {
-    font-family: vigia, sans-serif;
+    font-family: viga, sans-serif;
     color:blue;
     font-size: 10px;
     text-align: right;
     margin-left: 200px;
     margin-right: 350px;
 }
-/* @media query padrão para dispositivos com largura máxima de 768px
-@media only screen and (max-width: 768px) {
-    body {
-      max-width: 500px;   /* Define uma largura máxima para o conteúdo */
-      /* margin: 0 auto;     /* Centraliza horizontalmente o conteúdo */
-      /* text-align: center; /* Opcional: centraliza o texto dentro do body */
-    /* } */ 
-  /* } */ 
+
   
   #icon {
     margin-right: 10px;
@@ -161,8 +154,60 @@ h4 {
     transition: transform 0.3s ease-in-out;
   }
 
-  #icon:hover {
+ /* #icon:hover {
     height: 10px;
     transform:scale(1.2);
    
+  }*/
+
+  #icon:hover {
+    transform: scale(1.2) rotate(20deg); /* opcional: faz girar um pouquinho */
+}
+/* Estilos para telas menores (celulares e tablets) */
+@media only screen and (max-width: 768px) {
+  
+    body {
+      margin: 0 20px;
+      padding: 0;
+    }
+  
+    header {
+      font-size: 18px;
+      padding: 20px 0;
+    }
+  
+    .container {
+      flex-direction: column; /* empilha as receitas */
+      padding: 20px;
+      gap: 15px;
+    }
+  
+    .receita {
+      width: 90%; /* ocupa quase a tela toda */
+      margin: 0 auto;
+    }
+  
+    .rec-imagem {
+      height: 200px; /* ajusta altura da imagem */
+    }
+  
+    #chocolate,
+    #cenoura,
+    #molhoPenne,
+    #eCarbonara {
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    h4 {
+      font-size: 8px;
+      text-align: center;
+      margin: 10px;
+    }
+  
+    #icon {
+      font-size: 30px;
+      top: 15px;
+      right: 15px;
+    }
   }
