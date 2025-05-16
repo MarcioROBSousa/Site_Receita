@@ -5,7 +5,7 @@ Este projeto foi desenvolvido utilizando HTML, CSS e JavaScript.
 Ele permite a interação do usuário escolhendo temas (Dia 🌞 ou Noite 🌙) e exibindo receitas de forma responsiva e animada.
 
 <p align="center">
-  <img src="img/Animacao.gif" alt="Game" width="500"/>
+  <img src="img/Animacao.gif" alt="Game" width="400"/>
 </p>
 
 
