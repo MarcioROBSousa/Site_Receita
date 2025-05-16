@@ -10,9 +10,9 @@ Ele permite a interação do usuário escolhendo temas (Dia 🌞 ou Noite 🌙) 
 
 
 🛠️ Tecnologias Utilizadas
-HTML5
 
-CSS3
+(https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5 Badge)
+(https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS3 Badge")
 
 JavaScript (puro)
 
@@ -20,7 +20,10 @@ Google Fonts (Oswald, Roboto, Pacifico, Spline Sans, Viga)
 
 Responsividade básica com Flexbox
 
+---
+
 🎨 Funcionalidades
+
 👤 Saudação personalizada: O site pergunta o nome do visitante.
 
 🌞🌙 Alternância de Tema (Dia e Noite) clicando no ícone.
